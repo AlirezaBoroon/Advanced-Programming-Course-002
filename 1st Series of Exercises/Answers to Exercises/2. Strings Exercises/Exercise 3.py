@@ -20,7 +20,7 @@ print("Please enter a word for finding:")
 the_word= input()
 result= the_text.find(the_word)
 if result!= -1:
-    print("The word in in the text.")
+    print("The word is in the text.")
 else:
     print("The word is not in the text.")
 ## find function returns -1 if the word isn't in the text.
